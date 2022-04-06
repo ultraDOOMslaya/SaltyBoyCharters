@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "module": "ESNext",
+    "target": "ESNext",
+    "incremental": true,
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@features/*": ["./features/*"],
+      "@theme/*": ["./theme/*"]
+    }
+  },
+  "include": ["src/*/", "config"]
+}

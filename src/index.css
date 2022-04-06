@@ -1,0 +1,45 @@
+html,
+body {
+  overflow: hidden;
+}
+.handle {
+  z-index: 10000;
+}
+.remove-button {
+  z-index: 10000;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/* Hide the number up/down arrows in number inputs */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+#root {
+  /**
+This shouldn't be necessary, but without this, there are sometimes
+weird positioning artifacts when the dev server does a hot-reload.
+TODO: Look in to this
+   */
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2F2F2F;
+}

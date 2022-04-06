@@ -1,0 +1,1 @@
+export const topBarHeight = '3.5rem';
