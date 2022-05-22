@@ -33,7 +33,7 @@ This shouldn't be necessary, but without this, there are sometimes
 weird positioning artifacts when the dev server does a hot-reload.
 TODO: Look in to this
    */
-  overflow: hidden;
+  overflow: scroll;
   position: absolute;
   top: 0;
   left: 0;

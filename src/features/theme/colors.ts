@@ -4,11 +4,18 @@ export const appleGreen = '#579B3B';
 export const successGreen = '#45A545';
 export const paleSuccessGreen = '#ACD3AC';
 
+
 export const blueStone = '#164C60';
 export const lightBlue = '#005F9B';
 export const darkBlue = '#163962';
 export const slateBlue = '#122E41';
 export const paleBlue = '#91B4CC';
+
+export const lightTeal = '#4AA39F';
+export const darkTeal = '#257E84';
+
+export const lightTurqoise = '#B2D4DE';
+export const slateTurqoise = '#61BAB8';
 
 export const lightGray = '#A2AAAD';
 export const mediumGray = '#707070';

@@ -9,7 +9,7 @@ import { NavMenu } from '@features/nav-menu/nav-menu';
 // import * as Sizing from '@features/theme/Sizing';
 
 const StyledTopBar = styled.div`
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   top: 0;
@@ -17,8 +17,9 @@ const StyledTopBar = styled.div`
   height: ${Sizing.topBarHeight};
   width: 100vw;
   padding: 0.25rem;
-  background-color: ${Colors.hazyBlack};
+  background-color: ${Colors.darkBlue};
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
 `;
 
 const RightButtons = styled.div`

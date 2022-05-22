@@ -1,5 +1,7 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { BoatSection } from '@features/boat/boat-section';
+import { FishSection } from '@features/fish/fish-section';
+import { CaptainSection } from '@features/captain/captain-section';
 import './App.css'
 import * as Colors from '@features/theme/colors';
 import * as Sizing from '@features/theme/sizing';
@@ -14,20 +16,23 @@ const AppContainer = styled.div`
   justify-content: center;
 
   width: -webkit-fill-available;
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
 
-  color: ${Colors.pureWhite};
-  background-color: ${Colors.slateBlue};
+  color: ${Colors.pureBlack};
+  background: radial-gradient(
+    circle at top left,
+    ${Colors.pureWhite} 0,
+    ${Colors.gainsboro} 100%
+  );
 `;
 
 const AppBannerLogo = styled.img`
   width: 100%;
 
-  background-blend-mode: screen;
-  background-image: ${SaltyBoyLogo};
-  background-color: ${Colors.slateBlue};
-  background-size: cover;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, ${Colors.silver}, ${Colors.whiteSmoke});
 `;
 
 const AppBannerText = styled.div``;
@@ -47,6 +52,8 @@ function Starter() {
         Deep Sea & Inshore Fishing Guide
       </AppBannerText>
       <BoatSection />
+      <FishSection />
+      <CaptainSection />
     </AppContainer>
   )
 }
