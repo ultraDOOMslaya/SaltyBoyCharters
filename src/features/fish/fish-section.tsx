@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components';
 import * as Colors from '@features/theme/colors';
 import { SaltyContainer, SaltySection } from '@features/shared/page-section';
-import SaltyBoy1 from '@assets/images/scotty-with-fish.jpg';
-import SaltyBoy2 from '@assets/images/guy-with-fish1.jpg';
-import SaltyBoy3 from '@assets/images/lyla-with-fish.jpg';
-import SaltyBoy4 from '@assets/images/guy-with-fish2.jpg';
+import SaltyBoy1 from '@assets/images/scotty-happy-man-grand-snook.jpeg';
+import SaltyBoy2 from '@assets/images/scotty-kids-snook.jpeg';
+import SaltyBoy3 from '@assets/images/sitting-man-with-grouper.jpeg';
 
 
 const FishCard = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: no-wrap;
+  justify-content: space-between;
   margin-right: 2rem;
   margin-left: 2rem;
   margin-bottom: 2rem;
@@ -36,7 +36,6 @@ export const FishSection = () => {
           <img src={SaltyBoy1} />
           <img src={SaltyBoy2} />
           <img src={SaltyBoy3} />
-          <img src={SaltyBoy4} />
         </FishCard>
       </SaltySection>
     </SaltyContainer>

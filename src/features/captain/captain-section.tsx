@@ -41,7 +41,7 @@ export const CaptainSection = () => {
           />
           <CaptainInfo>
             <b>Scotty Darna</b>
-            <div style={{Color: Colors.darkGray}}>Sanibel, Florida, United States</div>
+            <div>Sanibel, Florida, United States</div>
             <br />
             <p>
             Captain Scotty Darna is a fifth-generation fisherman, born and raised on Pine Island. Being on the water comes as naturally to him as breathing. He's been a guide for the past decade and has no intention of slowing down. Putting people on the fish is what Capt. Scotty does best, but he's also very passionate about fishing tournaments and has some amazing stories to tell.

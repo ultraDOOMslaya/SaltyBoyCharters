@@ -4,6 +4,7 @@ import * as Sizing from '@features/theme/sizing';
 import { Button } from '@features/shared/button/button';
 import styled from 'styled-components';
 import InshoreBoatImage from '@assets/images/inshore-boat.jpeg';
+import OffshoreBoatImage from '@assets/images/offshore-boat.jpeg'
 
 const BoatsContainer = styled.div`
   display: flex;
@@ -105,10 +106,10 @@ export const BoatSection = () => {
         </BoatCard>
         <BoatCard>
           <b>DEEP SEA</b>
-          <BoatCardImage src={InshoreBoatImage} />
+          <BoatCardImage src={OffshoreBoatImage} />
           <BoatCardDescription>
-            This boat is a mystery but it will take you out the bay to get the big fish!
-            I hear the waves are choppy.
+            This is a grand boat that will take you out the bay to get the big fish!
+            I hear the waves are choppy and there's a poop bucket!
           </BoatCardDescription>
           <BoatCardDescriptionSpecs>
             <Spec>
