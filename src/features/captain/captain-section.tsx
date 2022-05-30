@@ -13,7 +13,7 @@ const CaptainCard = styled.div`
   width: 60%;
   padding: 2rem;
 
-  background-color: ${Colors.lightTurqoise};
+  background-color: ${Colors.slateTurqoise};
   box-shadow: 2px 1px 1px black;
   border-radius: 5px;
   
@@ -33,12 +33,6 @@ export const CaptainSection = () => {
       THE CAPTAIN
       <SaltyContainer>
         <CaptainCard>
-          <iframe 
-            width={420} 
-            height={315} 
-            src="https://fishingbooker.wistia.com/medias/9w2ai2ss1k" 
-            scrolling='no'
-          />
           <CaptainInfo>
             <b>Scotty Darna</b>
             <div>Sanibel, Florida, United States</div>

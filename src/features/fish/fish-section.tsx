@@ -17,7 +17,7 @@ const FishCard = styled.div`
   margin-bottom: 2rem;
   padding: 1rem;
 
-  background-color: ${Colors.lightTurqoise};
+  background-color: ${Colors.slateBlue};
   box-shadow: 2px 1px 1px black;
   border-radius: 5px;
 

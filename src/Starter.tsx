@@ -16,13 +16,14 @@ const AppContainer = styled.div`
   justify-content: center;
 
   width: -webkit-fill-available;
+  margin-top: ${Sizing.topBarHeight};
   font-size: calc(10px + 2vmin);
 
-  color: ${Colors.pureBlack};
+  color: ${Colors.whiteSmoke};
   background: radial-gradient(
     circle at top left,
-    ${Colors.pureWhite} 0,
-    ${Colors.gainsboro} 100%
+    ${Colors.lightBlue} 0,
+    ${Colors.slateBlue} 100%
   );
 `;
 
@@ -35,7 +36,9 @@ const AppBannerLogo = styled.img`
   border-image-source: linear-gradient(to left, ${Colors.silver}, ${Colors.whiteSmoke});
 `;
 
-const AppBannerText = styled.div``;
+const AppBannerText = styled.div`
+  text-align: center;
+`;
 
 
 
@@ -46,7 +49,7 @@ function Starter() {
     <AppContainer>
       <AppBannerLogo src={SaltyBoyLogo} />
       <AppBannerText>
-        Pine Island &nbsp;|&nbsp; Cape Coral &nbsp;|&nbsp; Fort Myers &nbsp;|&nbsp; Sanibel
+        Pine&nbsp;Island | Cape&nbsp;Coral | Fort&nbsp;Myers | Sanibel
       </AppBannerText>
       <AppBannerText>
         Deep Sea & Inshore Fishing Guide

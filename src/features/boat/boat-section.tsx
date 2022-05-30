@@ -35,7 +35,7 @@ const BoatCard = styled.div`
   padding-bottom: 0.5rem;
   margin-bottom: 2rem;
 
-  background-color: ${Colors.gainsboro};
+  background-color: ${Colors.slateBlue};
   box-shadow: 2px 1px 1px black;
   border-radius: 5px;
 `;
@@ -47,7 +47,7 @@ const BoatCardImage = styled.img`
 `;
 
 const BoatCardDescription = styled.div`
-  color: ${Colors.hazyBlack};
+  color: ${Colors.whiteSmoke};
   font-size: 16px;
 
   margin-top: 1rem;
@@ -72,12 +72,12 @@ const Spec = styled.div`
 
 const SpecLabel = styled.div`
   font-size: 16px;
-  color: ${Colors.pureBlack};
+  color: ${Colors.whiteSmoke};
 `;
 
 const SpecValue = styled.div`
   font-size: 16px;
-  color: ${Colors.hazyBlack};
+  color: ${Colors.lightGray};
 `;
 
 export const BoatSection = () => {
@@ -94,15 +94,14 @@ export const BoatSection = () => {
           </BoatCardDescription>
           <BoatCardDescriptionSpecs>
             <Spec>
-              <div style={{color: Colors.pureBlack}}>Length</div>
-              <div style={{color: Colors.hazyBlack}}>24ft</div>
+              <div style={{color: Colors.whiteSmoke}}>Length</div>
+              <div style={{color: Colors.lightGray}}>24ft</div>
             </Spec>
             <Spec>
-              <div style={{color: Colors.pureBlack}}>Capacity</div>
-              <div style={{color: Colors.hazyBlack}}>5 persons</div>
+              <div style={{color: Colors.whiteSmoke}}>Capacity</div>
+              <div style={{color: Colors.lightGray}}>5 persons</div>
             </Spec>
           </BoatCardDescriptionSpecs>
-          <Button>Book Inshore</Button>
         </BoatCard>
         <BoatCard>
           <b>DEEP SEA</b>
@@ -113,15 +112,14 @@ export const BoatSection = () => {
           </BoatCardDescription>
           <BoatCardDescriptionSpecs>
             <Spec>
-              <div style={{color: Colors.pureBlack}}>Length</div>
-              <div style={{color: Colors.hazyBlack}}>36ft</div>
+              <div style={{color: Colors.whiteSmoke}}>Length</div>
+              <div style={{color: Colors.lightGray}}>36ft</div>
             </Spec>
             <Spec>
-              <div style={{color: Colors.pureBlack}}>Capacity</div>
-              <div style={{color: Colors.hazyBlack}}>10 persons</div>
+              <div style={{color: Colors.whiteSmoke}}>Capacity</div>
+              <div style={{color: Colors.lightGray}}>10 persons</div>
             </Spec>
           </BoatCardDescriptionSpecs>
-          <Button>Book Deep Sea</Button>
         </BoatCard>
       </BoatsSection>
     </BoatsContainer>
