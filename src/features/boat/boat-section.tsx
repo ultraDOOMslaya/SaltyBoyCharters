@@ -13,6 +13,8 @@ const BoatsContainer = styled.div`
 
   width: -webkit-fill-available;
   margin-top: 2rem;
+
+  background-color: ${Colors.slateBlue};
 `;
 
 const BoatsSection = styled.div`
@@ -34,10 +36,6 @@ const BoatCard = styled.div`
   padding-left: 1.0rem;
   padding-bottom: 0.5rem;
   margin-bottom: 2rem;
-
-  background-color: ${Colors.slateBlue};
-  box-shadow: 2px 1px 1px black;
-  border-radius: 5px;
 `;
 
 const BoatCardImage = styled.img`
@@ -86,24 +84,6 @@ export const BoatSection = () => {
       <p>THE BOATS</p>
       <BoatsSection>
         <BoatCard>
-          <b>INSHORE</b>
-          <BoatCardImage src={InshoreBoatImage} />
-          <BoatCardDescription>
-            Custom (bay boat) originally built in 2008, and restored in 2016. 
-            Powered by a 200HP Yamaha engine.
-          </BoatCardDescription>
-          <BoatCardDescriptionSpecs>
-            <Spec>
-              <div style={{color: Colors.whiteSmoke}}>Length</div>
-              <div style={{color: Colors.lightGray}}>24ft</div>
-            </Spec>
-            <Spec>
-              <div style={{color: Colors.whiteSmoke}}>Capacity</div>
-              <div style={{color: Colors.lightGray}}>5 persons</div>
-            </Spec>
-          </BoatCardDescriptionSpecs>
-        </BoatCard>
-        <BoatCard>
           <b>DEEP SEA</b>
           <BoatCardImage src={OffshoreBoatImage} />
           <BoatCardDescription>
@@ -118,6 +98,24 @@ export const BoatSection = () => {
             <Spec>
               <div style={{color: Colors.whiteSmoke}}>Capacity</div>
               <div style={{color: Colors.lightGray}}>10 persons</div>
+            </Spec>
+          </BoatCardDescriptionSpecs>
+        </BoatCard>
+        <BoatCard>
+          <b>INSHORE</b>
+          <BoatCardImage src={InshoreBoatImage} />
+          <BoatCardDescription>
+            Custom (bay boat) originally built in 2008, and restored in 2016. 
+            Powered by a 200HP Yamaha engine.
+          </BoatCardDescription>
+          <BoatCardDescriptionSpecs>
+            <Spec>
+              <div style={{color: Colors.whiteSmoke}}>Length</div>
+              <div style={{color: Colors.lightGray}}>24ft</div>
+            </Spec>
+            <Spec>
+              <div style={{color: Colors.whiteSmoke}}>Capacity</div>
+              <div style={{color: Colors.lightGray}}>5 persons</div>
             </Spec>
           </BoatCardDescriptionSpecs>
         </BoatCard>

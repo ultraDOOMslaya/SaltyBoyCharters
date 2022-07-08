@@ -2,21 +2,27 @@ import React from 'react'
 import styled from 'styled-components';
 import * as Colors from '@features/theme/colors';
 import { SaltyContainer } from '@features/shared/page-section';
+import Scotty from '@assets/images/scotty-with-grouper.jpeg';
 
 const CaptainCard = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 
   position: relative;
   margin-bottom: 2rem;
-  width: 60%;
   padding: 2rem;
+  width: 80%;
 
-  background-color: ${Colors.slateTurqoise};
-  box-shadow: 2px 1px 1px black;
-  border-radius: 5px;
-  
+  background-color: ${Colors.slateBlue};  
+`;
+
+const CaptainsPortrait = styled.img`
+  display: flex;
+
+  height: 20rem;
+
+  border: 2px solid #000;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
 `;
 
 const CaptainInfo = styled.div`
@@ -27,7 +33,7 @@ const CaptainInfo = styled.div`
 `;
 
 export const CaptainSection = () => {
-  
+  console.log("scotty is: {}", Scotty);
   return (
     <SaltyContainer>
       THE CAPTAIN
