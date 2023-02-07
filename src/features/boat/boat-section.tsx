@@ -87,8 +87,10 @@ export const BoatSection = () => {
           <b>DEEP SEA</b>
           <BoatCardImage src={OffshoreBoatImage} />
           <BoatCardDescription>
-            This is a grand boat that will take you out the bay to get the big fish!
-            I hear the waves are choppy and there's a poop bucket!
+            Offshore charters take place on our 28' Parker. Federally permitted, 
+            our boat willt ake you miles and miles offshore where you can catch a variety of 
+            snapper (Red Snapper June-August), Grouper, Cobia, Porgy, Kingfish, Blackfin Tuna and more.
+            Boat is Equiped with advanced fish finding and navigation equipment, ice box, livewell, closed cabin, and a toilet.
           </BoatCardDescription>
           <BoatCardDescriptionSpecs>
             <Spec>
@@ -105,8 +107,10 @@ export const BoatSection = () => {
           <b>INSHORE</b>
           <BoatCardImage src={InshoreBoatImage} />
           <BoatCardDescription>
-            Custom (bay boat) originally built in 2008, and restored in 2016. 
-            Powered by a 200HP Yamaha engine.
+            Our inshore charter boat was custom built by Captain Scotty himself,
+            perfect for a day of fishing close to shore and the backwaters of southwest florida.
+            4, 6, or 8 hour trips available.
+            Catch a variety of fish such as Mangrove, Snapper, Snook, Redfish, Trout, Gag, Goliath Grouper, Sharks, and more.
           </BoatCardDescription>
           <BoatCardDescriptionSpecs>
             <Spec>
