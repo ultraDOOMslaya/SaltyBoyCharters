@@ -2,7 +2,7 @@
 ## Intro
 **WIP** Simple static page website for fishing charters for now
 
-## ABout
+## About
 React Typescript app built on vite
 
 ## Location
