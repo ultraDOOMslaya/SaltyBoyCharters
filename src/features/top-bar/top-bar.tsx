@@ -98,4 +98,5 @@ export const TopBar = () => {
 const ContactLink = styled.a`
   color: white;
   text-decoration:none;
+  word-break: break-all;
 `;

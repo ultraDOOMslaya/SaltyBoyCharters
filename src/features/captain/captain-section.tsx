@@ -24,6 +24,11 @@ const CaptainsPortrait = styled.img`
 
   border: 2px solid #000;
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+
+  @media only screen
+  and (max-width: 400px) {
+    display: none;
+  }
 `;
 
 const CaptainInfo = styled.div`
