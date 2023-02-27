@@ -33,6 +33,9 @@ export default defineConfig(({  }) => {
         };
       }),
     },
+    optimizeDeps: {
+      include: ['react/jsx-runtime'],
+    },
     plugins: [
       react(),
       //TODO: install svgr
