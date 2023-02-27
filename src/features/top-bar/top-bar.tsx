@@ -77,7 +77,9 @@ export function TopBarWithProvider() {
         <div
           style={{color: Colors.pureWhite, fontSize: Sizing.topBarBold}}
         >
-          <b>Call/Text 952-867-5309</b>
+          <ContactLink href='tel:239-872-0563'>Call/Text 239-872-0563</ContactLink>
+          <br />
+          <ContactLink href='mailto: saltyboycharters@gmail.com'>saltyboycharters@gmail.com</ContactLink>
         </div>
       </TopBarRightSection>
       <NavMenu visible={navMenuVisibility} closeMenu={() => setNavMenuVisibility(false)} />
@@ -92,3 +94,8 @@ export const TopBar = () => {
     </NavMenuProvider>
   )
 }
+
+const ContactLink = styled.a`
+  color: white;
+  text-decoration:none;
+`;
