@@ -99,7 +99,7 @@ export const BoatSection = () => {
             </Spec>
             <Spec>
               <div style={{color: Colors.whiteSmoke}}>Capacity</div>
-              <div style={{color: Colors.lightGray}}>10 persons</div>
+              <div style={{color: Colors.lightGray}}>6 persons</div>
             </Spec>
           </BoatCardDescriptionSpecs>
         </BoatCard>

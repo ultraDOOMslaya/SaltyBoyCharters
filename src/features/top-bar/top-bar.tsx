@@ -14,12 +14,16 @@ const StyledTopBar = styled.div`
   left: 0;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   
   height: ${Sizing.topBarHeight};
   width: 100vw;
-  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   background-color: ${Colors.darkBlue};
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   z-index: 2000;
@@ -34,12 +38,10 @@ const RightButtons = styled.div`
 
 const TopBarLeftSection = styled.div`
   float: left;
-  margin-left: 1rem;
 `;
 
 const TopBarRightSection = styled.div`
   float: right;
-  margin-right: 1rem;
 `;
 
 export const NavMenuContext = createContext<[boolean, Dispatch<SetStateAction<boolean>>]>([
