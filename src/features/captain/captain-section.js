@@ -2,7 +2,7 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import styled from 'styled-components';
 import * as Colors from '@features/theme/colors';
 import { SaltyContainer } from '@features/shared/page-section';
-import Scotty from '@assets/images/scotty-with-grouper.jpeg';
+import Scotty from '@assets/images/captain-scotty.jpeg';
 const CaptainCard = styled.div `
   display: flex;
   flex-direction: row;

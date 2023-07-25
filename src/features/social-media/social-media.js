@@ -15,7 +15,7 @@ const SocialMediaContainer = styled.div `
   gap: 0.25rem;
 
   margin-top: 5.5rem;
-  margin-right: 0.5rem;
+  margin-right: 1.0rem;
   z-index: 3000;
 
   img {

@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 import * as Colors from '@features/theme/colors';
 import { SaltyContainer, SaltySection } from '@features/shared/page-section';
+import DeepSea1 from '@assets/images/scotty-with-grouper.jpeg';
+import DeepSea2 from '@assets/images/ice-box-fish.jpeg';
+import DeepSea3 from '@assets/images/fat-man-fish.jpeg';
 import SaltyBoy1 from '@assets/images/bro-with-ugly-fish.jpg';
 import SaltyBoy2 from '@assets/images/scotty-kids-snook.jpeg';
 import SaltyBoy3 from '@assets/images/reeled-in.jpg';
@@ -35,6 +38,19 @@ export const FishSection = () => {
   return (
     <SaltyContainer>
       <p>THE FISH</p>
+      <SaltySection>
+        <FishGallery>
+          <Portrait>
+            <img src={DeepSea1} />
+          </Portrait>
+          <Portrait>
+            <img src={DeepSea2} />
+          </Portrait>
+          <Portrait>
+            <img src={DeepSea3} />
+          </Portrait>
+        </FishGallery>
+      </SaltySection>
       <SaltySection>
         <FishGallery>
           <Portrait>

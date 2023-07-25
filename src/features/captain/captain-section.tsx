@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import * as Colors from '@features/theme/colors';
 import { SaltyContainer } from '@features/shared/page-section';
-import Scotty from '@assets/images/scotty-with-grouper.jpeg';
-import SaltyBoy1 from '@assets/images/bro-with-ugly-fish.jpg';
+import Scotty from '@assets/images/captain-scotty.jpeg';
 
 const CaptainCard = styled.div`
   display: flex;
